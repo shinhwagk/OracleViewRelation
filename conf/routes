@@ -1,0 +1,5 @@
+GET      /                              controllers.Application.index
+GET      /par/:name                     controllers.Application.parameter(name:String)
+GET      /ddv/:name                     controllers.Application.dataDictionaryView(name:String)
+GET      /dpv/:name                     controllers.Application.dynamicPerformanceView(name:String)
+GET      /evt/:name                     controllers.Application.event(name:String)
