@@ -1,0 +1,23 @@
+<h1>{{name}}</h1>
+<div class="container-fluid" *ngIf="name">
+  <div class="row">
+    <div class="col-lg-10">
+      <table border="1">
+        <tr *ngFor="let key of property">
+          <td>{{key[0]}}</td>
+          <td>{{key[1]}}</td>
+        </tr>
+      </table>
+
+      <h2>section:</h2>
+      <div>{{section}}</div>
+
+      <h2>Notes:</h2>
+
+      <p *ngFor="let note of notes">{{note}}</p>
+    </div>
+    <div class="col-lg-2">
+      xx
+    </div>
+  </div>
+</div>
