@@ -1,7 +1,7 @@
 <h1>{{name}}</h1>
 <div class="container-fluid" *ngIf="name">
   <div class="row">
-    <div class="col-lg-10">
+    <div class="col-lg-9 col-sm-12">
       <table border="1">
         <tr *ngFor="let key of property">
           <td>{{key[0]}}</td>
@@ -16,7 +16,7 @@
 
       <p *ngFor="let note of notes">{{note}}</p>
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
       xx
     </div>
   </div>
