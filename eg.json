@@ -1,0 +1,29 @@
+{
+  "name": "xxxx",
+  "type": "dd",
+  "version": [
+    "11.2"
+  ],
+  "Related Views": [
+    "",
+    ""
+  ],
+  "describes": "",
+  "columns": [
+    {
+      "Column": "",
+      "Datatype": "Datatype",
+      "NULL": "NULL",
+      "Description": "",
+      "version:": [
+        "11.2"
+      ],
+      "Related": [
+        {
+          "name": "",
+          "column": ""
+        }
+      ]
+    }
+  ]
+}
